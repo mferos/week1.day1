@@ -12,7 +12,7 @@ public class FibonacciSeries {
 		System.out.println(firstNumber);
 		System.out.println(secondNumber);
 		
-		for (int i = 2; i < range; i++) {
+		for (int i = 0; i < range; i++) {
 			
 			sumOfTwo = firstNumber + secondNumber;
 			firstNumber = secondNumber;
